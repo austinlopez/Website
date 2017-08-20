@@ -4,6 +4,7 @@ body{
   font-family: Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.5;
+  margin:0;
 }
 
 .container{
@@ -15,7 +16,8 @@ body{
 
 header{
   background-color: #2A6390;
-  border-bottom: 10px #C20909 solid;
+  color: #ffffff;
+  border-bottom: 3px #C20909 solid;
 }
 
 header #label{
@@ -25,29 +27,30 @@ header #label{
   color: white;
 }
 
-nav a{
+header a{
   text-decoration: none;
+  font-size: 16px;
   color: #e6e6e6;
 }
 
-nav .selected{
-  text-decoration: bold;
+header .selected, .highlight{
+  text-decoration: none;
   color: red;
   font-weight: bold;
 }
 
-nav ul{
+header ul{
   list-style-type: none;
-  padding: 0px;
+  padding:0;
+  margin:0;
 }
 
-nav{
-  background-color: white;
-  color: black;
-  float: left;
-  padding: 10px;
-  width: 140px;
+header li{
+  float:left;
+  display: inline;
+  padding: 0px 20px 0px 20px;
 }
+
 
 #main{
   background-color: grey;
